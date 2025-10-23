@@ -6,8 +6,6 @@
 # Regex Simplified
 Simple, customizable regex builder focused on letters and numbers. 
 
-Packagist: https://packagist.org/packages/deplaced/regex-simplified
-
 ## Install
 ```bash
 composer require DePlaced/regex-simplified
