@@ -1,2 +1,7 @@
-# regex-simplified
-Are repository for the regex-simplified package, used to easily make regex validation
+# Regex Guard
+
+Simple, customizable regex builder focused on letters and numbers.
+
+## Install
+```bash
+composer require DePlaced/regex-simplified
