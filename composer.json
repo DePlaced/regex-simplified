@@ -1,0 +1,20 @@
+{
+  "name": "DePlaced/regex-simplified",
+  "description": "Simple, customizable regex builder for letters and numbers.",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "RegexSimplified\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.5"
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
