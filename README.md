@@ -32,7 +32,7 @@ var_dump($rx->test('Hello')); // false
 
 ---
 
-### Examples
+## Examples
 | Pattern | Chain | Matches | Non-matches |
 |----------|--------|----------|--------------|
 | `/^[a-z]+$/u` | `Regex::make()->start()->lowercase()->oneOrMore()->end()` | `abc`, `hello` | `Hello`, `123` |
