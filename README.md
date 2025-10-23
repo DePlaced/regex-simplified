@@ -1,4 +1,4 @@
-# Regex Guard
+# Regex Simplified
 
 Simple, customizable regex builder focused on letters and numbers.
 
