@@ -1,6 +1,6 @@
 <?php
 use PHPUnit\Framework\TestCase;
-use RegexGuard\Rx;
+use DePlaced\RegexSimplified\Rx;
 
 final class RxTest extends TestCase
 {
@@ -11,9 +11,10 @@ final class RxTest extends TestCase
         $this->assertFalse($rx->test('Abc'));
     }
 
-    public function test_alnum_min_max(): void
+    public function test_uppercase_only(): void
     {
-        $rx = Rx::make()->start()->letter()->number()->repeat(3,6)->end();
-        $this->assertFalse($rx->test('a'));    
-        $this->assertFalse($rx->test('A-1'));
+        $rx = Rx::make()->start()->uppercase()->oneOrMore()->end();
+        $this->assertTrue($rx->test('HELLO'));
+        $this->assertFalse($rx->test('Hello'));
+    }
 }
