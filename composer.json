@@ -2,7 +2,7 @@
   "name": "deplaced/regex-simplified",
   "type": "library",
   "description": "A simple, customizable regex builder for PHP.",
-  "keywords": ["log","logging"],
+  "keywords": ["regex","validation"],
   "homepage": "https://github.com/DePlaced/regex-simplified",
   "license": "MIT",
   "authors": [
