@@ -1,8 +1,16 @@
 {
   "name": "deplaced/regex-simplified",
-  "description": "A simple, customizable regex builder for PHP.",
   "type": "library",
+  "description": "A simple, customizable regex builder for PHP.",
+  "keywords": ["log","logging"],
+  "homepage": "https://github.com/DePlaced/regex-simplified",
   "license": "MIT",
+  "authors": [
+        {
+            "name": "Anonymous",
+            "role": "Developer"
+        }
+    ],
   "require": {
     "php": ">=8.1"
   },
